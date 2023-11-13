@@ -26,6 +26,21 @@
     line-height: 4rem;
 }
 
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(99, 99, 99);;
+    padding: .5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.search-bar> input{
+    border: none;
+    outline: none;
+}
+
+
 .orange-circle{
     height: 4rem;
     width: 4rem;
@@ -69,3 +84,59 @@
     width: 100%;
     height: 100%;
 }
+
+
+@media (max-width: 640px) {
+    .hero-container{
+        width: auto;
+        /* height: 100px; */
+    }
+    .hero-title>h1{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        padding-left: 1rem;
+    }
+    .TextA{
+        left: 0%;
+        bottom: 0%;
+        font-size: 1.5rem;
+    }
+    .hero-des{
+        width: auto;
+        height: auto;
+    }
+    .search-bar{
+        background-color: white;
+        border-radius: 5px;
+        border: 2px solid rgb(99, 99, 99);;
+        padding: .5rem;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .search-bar>button{
+        width:50%;
+    }
+    .search-bar>input{
+        width:20%;
+    }
+    .image-container{
+        width: 95%;
+        height: 15rem;
+    }
+    .stats{
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .hero-right{
+        width: 100%;
+    }
+    .stat>:nth-child(1)
+    {
+        font-size: 1.5rem;
+    }
+    .stat>:nth-child(2)
+    {
+        font-size: 0.8rem;
+    }
+}
+

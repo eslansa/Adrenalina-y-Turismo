@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-
+import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup"
 const Hero = () => {
   return (
@@ -15,7 +15,11 @@ const Hero = () => {
              Adrenalina & Turismo <br/> Donde la naturaleza y <br />la aventura <br /> se encuentran.
               </h1>
             </div>
-
+            <div className="flexCenter search-bar">
+              <HiLocationMarker color="var(--blue)" size={25} />
+              <input type="text" />
+              <button className="button">Buscar</button>
+            </div>
             <div className="flexColStart hero-des">
               <span className="secondaryText">
               Adrenalina & Turismo es una agencia de viajes ecológicos que ofrece experiencias personalizadas.
