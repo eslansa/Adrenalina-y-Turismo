@@ -16,3 +16,17 @@
 .h-menu>*:hover{
     cursor: pointer;
 }
+
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgb(120, 120, 120, 0.374);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.search-bar> input{
+    border: none;
+    outline: none;
+}

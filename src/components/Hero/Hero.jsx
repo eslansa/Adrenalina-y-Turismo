@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import { HiLocationMarker } from "react-icons/hi";
+
 import CountUp from "react-countup"
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="hero-title">
               {/* <div className="orange-circle" /> */}
               <h1>
-              Donde la naturaleza y <br />la aventura <br /> se encuentran.
+             Adrenalina & Turismo <br/> Donde la naturaleza y <br />la aventura <br /> se encuentran.
               </h1>
             </div>
 
@@ -26,11 +26,7 @@ const Hero = () => {
               <span className="secondaryText">
               Nuestro objetivo es hacer de cada viaje una aventura inolvidable, promoviendo el turismo sostenible.   </span>
             </div>
-            <div className="flexCenter search-bar">
-              <HiLocationMarker color="var(--blue)" size={25} />
-              <input type="text" />
-              <button className="button">Buscar</button>
-            </div>
+
 
             <div className="flexCenter stats">
               <div className="flexColCenter stat">

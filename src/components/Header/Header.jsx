@@ -1,11 +1,17 @@
 import React from "react";
 import './Header.css'
+import { HiLocationMarker } from "react-icons/hi";
 const Header = () => {
   return (
     <div>
       <section className="h-wrapper">
         <div className="flexCenter paddings innerWidth h-container">
           <h1>Adrenalina & Turismo</h1>
+          <div className="flexCenter search-bar">
+              <HiLocationMarker color="var(--blue)" size={25} />
+              <input type="text" />
+              <button className="button">Buscar</button>
+            </div>
           <div className="flexCenter h-menu">
             <a href="">Reservas</a>
             <a href="">Hoteles</a>
@@ -20,6 +26,6 @@ const Header = () => {
       </section>
     </div>
   );
-};  
+};
 
 export default Header;
